@@ -16,6 +16,6 @@ link_libraries(${SDL2_LIBRARY}
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c99")
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES game.c game/game_window/window.c game/game_window/window.h)
 
 add_executable(client ${SOURCE_FILES})
